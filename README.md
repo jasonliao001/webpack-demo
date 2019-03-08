@@ -16,6 +16,8 @@
 | demo10 |      使用 Angular2       |
 | demo11 |     为单页生成 HTML      |
 | demo12 |     管理多个单页应用     |
+| demo13 |       构建同构应用       |
+| demo14 |    构建 Electron 应用    |
 
 #### 参考链接：
 
