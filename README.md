@@ -22,6 +22,13 @@
 | demo16 |         构建 离线应用         |
 | demo17 | 通过 Node.js API 启动 wepback |
 | demo18 |           加载图片            |
+| demo19 |      缩小文件的搜索范围       |
+| demo20 |        使用 DllPlugin         |
+| demo21 |        使用 HappyPack         |
+| demo22 |   使用 ParallelUglifyPlugin   |
+| demo23 |         使用 自动刷新         |
+| demo24 |           区分环境            |
+| demo25 |         使用 cdn 加速         |
 
 #### 参考链接：
 
