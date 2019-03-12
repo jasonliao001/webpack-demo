@@ -29,6 +29,14 @@
 | demo23 |         使用 自动刷新         |
 | demo24 |           区分环境            |
 | demo25 |         使用 cdn 加速         |
+| demo26 |       使用 tree Shaking       |
+| demo27 |         提起公共代码          |
+| demo28 |       分割代码按需加载        |
+| demo29 | 分割代码按需加载 ReactRouter  |
+| demo30 |     提升代码性能 Prepack      |
+| demo31 |      开启 ScopeHoisting       |
+| demo32 |           输出分析            |
+| demo33 |           优化总结            |
 
 #### webpack 优化
 
