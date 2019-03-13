@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './main.css';
-
+import show from './show.js';
+show();
 class Button extends Component {
   render() {
-    return <h1>Hello,Webpack</h1>
+    return <h1>Hello,Webpack</h1>;
   }
 }
 
-render(<Button/>, window.document.getElementById('app'));
+render(<Button />, window.document.getElementById('app'));

@@ -21,7 +21,7 @@ module.exports = {
 
   plugins: [
     new ExtractTextPlugin({
-      filename: '[name]_[contenthash:8].css'
+      filename: '[name]_[contenthash].css'
     })
   ]
 };
