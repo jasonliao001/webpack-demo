@@ -37,6 +37,7 @@
 | demo31 |      开启 ScopeHoisting       |
 | demo32 |           输出分析            |
 | demo33 |           优化总结            |
+| demo34 |         使用 postcss          |
 
 #### webpack 优化
 

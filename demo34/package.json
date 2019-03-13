@@ -1,0 +1,17 @@
+{
+  "name": "dive-into-webpack",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "css-loader": "^0.28.7",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.0"
+  }
+}
