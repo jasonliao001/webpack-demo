@@ -1,0 +1,27 @@
+#app {
+  color: red;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #ddd;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  background-color: #000;
+}
+li:not(:last-child) {
+  width: 100px;
+}
+li:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

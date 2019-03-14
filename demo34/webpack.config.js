@@ -1,5 +1,5 @@
 const path = require('path');
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   // JS 执行入口文件
   entry: './main.js',
@@ -13,9 +13,17 @@ module.exports = {
     rules: [
       {
         // 使用 PostCSS 处理 CSS 文件
-        test: /\.css/,
-        use: ['style-loader', 'css-loader', 'postcss-loader']
+        test: /\.less$/,
+        // ', 'postcss-loader'
+        use: ['style-loader', 'css-loader', 'less-loader', 'postcss-loader']
       }
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      inject: true,
+      filename: path.join(__dirname, './dist/index.html'),
+      template: path.join(__dirname, './index.html')
+    })
+  ]
 };

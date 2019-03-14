@@ -1,9 +1,0 @@
-:root {
-  --red: #d33;
-}
-
-#app {
-  color: var(--red);
-  display: inline-flex;
-  flex-direction: row;
-}
